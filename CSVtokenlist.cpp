@@ -29,7 +29,7 @@ std::string::const_iterator rtrim(const std::string::const_iterator &begin,
 	while(ptr != begin && (*ptr == ' ' || *ptr == '\t')) {
             ptr--;
 	}
-        return ptr;
+	return ptr;
 }
 
 std::string::const_iterator ltrim(const std::string::const_iterator &begin,
@@ -38,7 +38,7 @@ std::string::const_iterator ltrim(const std::string::const_iterator &begin,
 	while(ptr != end && (*ptr == ' ' || *ptr == '\t')) {
             ptr++;
 	}
-        return ptr;
+	return ptr;
 }
 
 CSVtokenlist::CSVtokenlist(const string& buf, int _d) : L(buf), _no_EOL_DQUOTE(0), DELIM(_d)
