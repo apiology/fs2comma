@@ -10,7 +10,7 @@ Original code from
 ## To compile
 
 ```sh
-$ g++ -o fs2comma -Wall *.cpp
+$ g++ -w -o fs2comma *.cpp
 $ ./fs2comma
 fs2comma version 6.1.1.0 NIC Technologies Inc 2006-2010
 Usage: fs2comma 123.fec [out.csv]
